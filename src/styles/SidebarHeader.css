@@ -1,0 +1,48 @@
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2em;
+}
+.add_box-icon {
+  color: rgba(255, 255, 255, 1);
+  border-radius: 25rem;
+  font-size: 1.9em;
+}
+
+.toggle_on,
+.toggle_off {
+  color: rgba(255, 255, 255, 1);
+  margin-top: 0.2em;
+  font-size: 2.5em;
+}
+.blob {
+  background-color: #bfdbfe;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 100%;
+}
+.big-blob {
+  background-color: white;
+  width: 1.3em;
+  height: 0.5em;
+  border-radius: 1em;
+  outline: none;
+  border: none;
+}
+.blob-container {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0.5em;
+}
+
+.toggle-temp{
+  margin-top: 0.5em;
+  color: white;
+}

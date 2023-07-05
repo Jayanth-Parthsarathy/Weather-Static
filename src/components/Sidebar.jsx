@@ -1,7 +1,9 @@
+import "../styles/Sidebar.css"
+import SidebarHeader from "./SidebarHeader"
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      Sidebar
+      <SidebarHeader />
     </div>
   )
 }
