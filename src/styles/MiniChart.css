@@ -1,0 +1,13 @@
+.minichart-header {
+  margin-top: 1em;
+  margin-left: 4em;
+}
+
+.minichart-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 5em;
+  /* grid-template-rows: repeat(2, minmax(0, 1fr)); */
+  margin-left: 9em;
+  margin-top: 2em;
+}

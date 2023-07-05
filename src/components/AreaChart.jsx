@@ -60,7 +60,7 @@ const data = [
 
 const Example= () => {
   return (
-    <ResponsiveContainer height={120} width='90%'>
+    <ResponsiveContainer height={100} width='90%'>
       <AreaChart
         data={data}
         margin={{

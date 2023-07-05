@@ -1,0 +1,26 @@
+.wind-container {
+  display: flex;
+  flex-direction: column;
+  width: 22em;
+  height: 10em;
+  background-color: white;
+  border-radius: 1em;
+}
+
+.wind-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4em 1em;
+}
+
+.windmeter{
+  padding: 0.5em;
+  height: 6em;
+  width: 6em;
+  margin-left: 8em;
+}
+
+.wind-info{
+  font-size: 1.4em;
+  margin-left: 6em;
+}

@@ -6,6 +6,7 @@ const MainContent = () => {
     <div className="main-content">
       <MainHeader />
       <MainChart />
+      <MiniChart />
     </div>
   )
 }

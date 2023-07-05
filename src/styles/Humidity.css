@@ -1,0 +1,40 @@
+.humidity-line{
+  height: 0.5em;
+  width: 3em;
+  border-radius: 0.5em;
+}
+
+.water_drop{
+  color: blue;
+}
+
+.humidity-container{
+  width: 22em;
+  height: 10em;
+  background-color: white;
+  border-radius: 1em;
+}
+
+.humidity-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.humidity-percent{
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 4em;
+}
+
+.humidity-line-container{
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input-div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
