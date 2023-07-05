@@ -14,7 +14,7 @@
 }
 .sidebar {
   flex: 1;
-  max-width: 16.666%;
+  max-width: 20%;
   background: url("sidebarbg.jpg") no-repeat fixed;
   background-color: #60a5fa;
 }

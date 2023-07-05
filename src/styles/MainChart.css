@@ -1,0 +1,26 @@
+.chart-container{
+  width: 79em;
+  height: 22em;
+  background: white;
+  margin: 0 auto;
+  margin-top: 1em;
+  border-radius: 1em;
+}
+
+
+.chart{
+  padding: 1em;
+  margin-left: 6em;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-icon{
+  display: flex;
+  gap: 0.1em;
+  background-color: #e5e7eb;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
