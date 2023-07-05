@@ -1,0 +1,48 @@
+.sidebar-content{
+  margin-top: 5em;
+  padding: 1.3em;
+}
+.sidebar-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  color: white;
+}
+
+.sidebar-icon-text{
+  display: flex;
+  align-items: center;
+  gap:0.6em;
+}
+
+.typography {
+  font-size: 1.2em;
+  font: bold;
+}
+
+.large-text{
+  font-size: 6em;
+}
+
+.sidebar-row-2{
+  color: white;
+  margin-top: 2em;
+}
+
+.nav-icon{
+  font-size: 3em;
+}
+
+.nav-icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
