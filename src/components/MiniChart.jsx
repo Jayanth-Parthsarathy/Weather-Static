@@ -7,7 +7,7 @@ import Feels from './Feels'
 import RainChance from './RainChance'
 const MiniChart = () => {
   return (
-    <div>
+    <div className='minichart'>
       <h3 className='minichart-header'>
         <strong>More details about today's weather</strong>
       </h3>

@@ -5,9 +5,14 @@
   padding: 0;
   font-family: 'Nunito', sans-serif;
 }
+html, body {
+  background-color:  #dbeafe; /* Replace with your desired background color */
+  height: 100%;
+}
+
 
 .app {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   padding: 0;
   margin: 0;
@@ -23,3 +28,40 @@
   flex: 1;
   background-color: #dbeafe;
 }
+
+@media (max-width: 1237px) {
+  .sidebar{
+    display: none;
+  }
+  .minichart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-left:1em;
+  }
+  .minichart{
+    text-align: left;
+    margin-left: 0;
+  }
+   .chart{
+    padding: 0;
+    margin-left: 0;
+  }
+  .icon-container{
+    display: none;
+  }
+
+}
+@media (max-width: 1237px) {
+ .flex .icons{
+    display: none;
+  } 
+}
+
+
+::-webkit-scrollbar {
+  width: 0em; 
+  background-color: transparent;
+}
+
+

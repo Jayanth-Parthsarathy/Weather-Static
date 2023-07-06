@@ -7,7 +7,7 @@ export default function Example() {
     <div className='chart-container'>
       <div className='flex'>
         Upcoming hours
-        <div className='flex'>
+        <div className='flex icons'>
           <div className='flex-icon'>
             Rain precipitation <span class='material-icons'>expand_more</span>
           </div>
