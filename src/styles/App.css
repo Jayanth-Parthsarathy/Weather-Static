@@ -30,6 +30,10 @@ html, body {
 }
 
 @media (max-width: 1237px) {
+  .chart-container{
+    margin: 0;
+    margin-left: 2em;
+  }
   .sidebar{
     display: none;
   }
@@ -37,7 +41,7 @@ html, body {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    margin-left:1em;
+    margin-left:2em;
   }
   .minichart{
     text-align: left;
@@ -49,6 +53,9 @@ html, body {
   }
   .icon-container{
     display: none;
+  }
+  .flex{
+    margin-left: 0;
   }
 
 }
